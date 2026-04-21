@@ -2,13 +2,12 @@
   "name": "pt-outreach-automation",
   "version": "1.0.0",
   "description": "Psychology Today outreach automation",
-  "main": "src/index.js",
+  "main": "src/composer-server.js",
   "engines": {
     "node": ">=20.0.0"
   },
   "scripts": {
-    "start": "node src/composer-server.js",
-    "dev": "node --watch src/composer-server.js"
+    "start": "node src/composer-server.js"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.20.0",
